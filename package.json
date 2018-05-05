@@ -12,14 +12,28 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "compression": "^1.7.1",
     "express": "^4.16.3",
+    "foundation-sites": "^6.4.4-rc1",
+    "jquery": "^3.3.1",
     "npm-run-all": "^4.1.2",
     "polka": "^0.3.4",
+    "popper.js": "^1.14.3",
     "sapper": "^0.10.0",
     "serve-static": "^1.13.1",
     "svelte": "^2.0.0",
     "svelte-loader": "^2.3.3",
     "webpack": "^4.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.0.1",
+    "script-loader": "^0.7.2",
+    "style-loader": "^0.21.0"
   }
 }
